@@ -21,7 +21,7 @@ const images = ref('')
 
 
 const vehicule = axios.create({
-  baseURL: 'http://localhost:3010/api', // Remplacez par l'URL de votre API
+  baseURL: 'https://tokpelocation-backend.onrender.com/api', // Remplacez par l'URL de votre API
   timeout: 1000, // Temps d'attente maximal pour une requête (en millisecondes)
   headers: {
     'Content-Type': 'application/json',

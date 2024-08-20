@@ -15,7 +15,7 @@ const Password = ref('')
 const mail = ref('')
 
 
-const base_url = 'http://localhost:3010/api/auth'
+const base_url = 'https://tokpelocation-backend.onrender.com/api/auth'
 const inscription = async() => {
     try {
     
