@@ -1,0 +1,37 @@
+{
+  "name": "site_location",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@mdi/font": "^7.4.47",
+    "@primevue/themes": "^4.0.0-rc.2",
+    "axios": "^1.7.2",
+    "pinia": "^2.1.7",
+    "primevue": "^4.0.0-rc.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "deepmerge": "^4.3.1",
+    "postcss": "^8.4.38",
+    "sass": "~1.32",
+    "sass-loader": "^16.0.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.8",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.13"
+  }
+}
