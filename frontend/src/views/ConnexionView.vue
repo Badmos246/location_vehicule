@@ -11,7 +11,7 @@ const Nom = ref('')
 const Telephone = ref('')
 const Password = ref('')
 
-const base_url = 'http://localhost:3010/api/auth'
+const base_url = 'https://tokpelocation-backend.onrender.com/api/auth'
 const connexion = async() => {
     try {
     
