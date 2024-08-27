@@ -7,7 +7,6 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter()
 
-const Nom = ref('')
 const Telephone = ref('')
 const Password = ref('')
 
