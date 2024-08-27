@@ -9,7 +9,7 @@ const cors = require('cors');
 const app = express();
 
 var corsOption = {
-    origin: "https://**"
+  origin: "https://tokpelocation-g751.vercel.app",
 };
 
 app.use(cors(corsOption));
